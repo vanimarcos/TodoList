@@ -1,5 +1,10 @@
+
+
+# Todo List
 This is a Simple Todo list  
 Written in PHP, javascript and using JQuery and AJAX.
+
+
 
 ### OBJECTIVES
 Show how to use JQuery with AJAX and PHP in a simple way
