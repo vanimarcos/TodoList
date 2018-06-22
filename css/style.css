@@ -1,0 +1,110 @@
+body > *{
+	margin: 20px;
+}
+
+form{
+    display: inline-block;
+    width: 220.433px;
+}
+
+.container{
+	margin: auto; 
+	position: absolute; 
+	top: 20%; 
+	left: 40%; 
+	bottom: 0; 
+	right: 0; 
+	transform: translate(-50% -50%);
+}
+
+.container > div{
+	margin: 5px;
+ }
+
+
+.display > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.close_button{
+	position: absolute;
+	right: 2.222%;
+	cursor: pointer;
+}
+
+.list_element{
+	display: inline-flex;
+	height: 10px;
+	width: 189px; 
+	position: relative;
+	box-shadow: 0.2px 1.4px 3.7px rgba(0, 0, 0, .5);
+
+	padding-top:10px;
+    padding-bottom: 15.222px;
+    padding-left: 15.222px;
+    padding-right: 15.222px;
+	margin-bottom: 1.4444px;
+
+	background: white;
+}
+
+ /* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+} 
+
+.inline{
+	display: inline;
+    width: 220.433px;
+}
+
+#task>button {
+   float: inline-end;
+}
+
+#task_text{
+    width:166px;
+}
